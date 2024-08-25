@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2.bai6</title>
+    <style>
+         h1{
+            text-align: left;
+            color: hsl(0, 0%, 20%);
+        }
+        input[type="text"],
+        textarea{
+            text-align: left;
+            color: #333;
+        }
+        select {
+            width: 30%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+    </style>
+   
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form>
+        <fieldset>
+            <Legend>Your Message</LEGEND>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" value="Example Cafe"><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea><br>
+
+        <label for="file">Attach file:</label>
+        <input type="file" id="file" name="file"><br>
+
+        
+    </fieldset>
+    <fieldset>
+        <Legend>How you found us:</LEGEND>
+            <label for="howfound">How did you hear of us :</label>
+        <select id="howfound" name="howfound">
+            <option value="google">Google</option>
+            <option value="newsletter">Newsletter</option>
+        </select><br><br>
+            Newsletter &nbsp
+            <input type="checkbox" name="newsletter" value="yes">
+             Ensure this box is checked if you would like to receive email updates
+        </label><br>
+       
+        </fieldset> 
+        <input type="submit" value="Send message">
+    
+    </form>
+</body>
+</html>

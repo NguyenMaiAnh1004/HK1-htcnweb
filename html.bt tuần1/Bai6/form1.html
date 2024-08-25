@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2{ text-align: center;}
+        input[type="text"],
+        input[type="date"],
+        .button-group
+         {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Jackson</h1>
+    <hr size="1" width="30%">
+    <h1>Electronics</h1>
+
+        <h2>Registration Form</h2>
+        <ul>Register your Jackson Electronics product here</ul>
+    <form action="">
+            First Name:
+            <input type="text" name="fname"><br>
+            Last Name:
+            <input type="text"  name="lname"><br>
+
+            Address #1:
+            <input type="text" id="address1" name="address1"><br><br>
+
+            Address #2:
+            <input type="text" id="address2" name="address2"><br><br>
+
+            City: 
+            <input type="text" id="city" name="city"><br><br>
+            State:
+            <input type="text" id="state" name="state"><br><br>
+            Zip:
+            <input type="text" id="zip" name="zip"><br><br>
+
+            Country:
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+            </select><br><br>
+            <hr/>
+            Product:</label>
+            <select id="product" name="product">
+                <option value="scanmaster">ScanMaster</option>
+            </select><br><br>
+
+            Date Purchased:
+            <input type="date" id="date" name="date"><br><br>
+
+            Serial#:
+            <input type="text" id="serial" name="serial"><br><br>
+            
+
+            <p>Used for:</p>
+            <input type="radio" id="home" name="usedfor" value="home">
+            <label for="home"> Home</label><br>
+            <input type="radio" id="business" name="usedfor" value="business">
+            <label for="business"> Business</label><br>
+            <input type="radio" id="government" name="usedfor" value="government">
+            <label for="government"> Government</label><br>
+            <input type="radio" id="educational" name="usedfor" value="educational">
+            <label for="educational"> Educational Institution</label><br>
+            <input type="radio" id="other" name="usedfor" value="other">
+            <label for="other"> Other</label><br><br>
+
+            <p>System (check all that apply):</p>
+            <input type="checkbox" id="windows" name="system" value="windows">
+            <label for="windows"> Windows</label><br>
+            <input type="checkbox" id="unix" name="system" value="unix">
+            <label for="unix"> UNIX</label><br>
+            <input type="checkbox" id="mac" name="system" value="mac">
+            <label for="mac"> Macintosh</label><br>
+            <input type="checkbox" id="other" name="system" value="other">
+            <label for="other"> Other</label><br><br>
+
+            <hr/>
+           Comments:
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+            
+            <div class="button-group">
+                <button type="submit">Click to register</button>
+                <button type="reset">Click to cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

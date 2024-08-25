@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form3.bai6
+    </title>
+    <style>
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .date-picker {
+            position: relative;
+        }
+        .date-picker .calendar table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <FORM>
+       Name:
+        <input type="text" name="name" value=""><br>
+        Telephone Number:
+        <input type="text" name="Telephone" value=""><br>
+        Emai:
+        <input type="text" name="Email" value=""><br>
+        Favourite colour:
+        <input type="color" name="F.Colour" value="#00f"><br>            
+        Date of Birth:
+        <div>
+            <input type="date" id="birthdate" name="birthdate">
+            <div class="calendar">
+                <table>
+                    </table>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div><br><br>
+        <button type="submit">Submit</button>
+
+    </FORM>
+</body>
+</html>

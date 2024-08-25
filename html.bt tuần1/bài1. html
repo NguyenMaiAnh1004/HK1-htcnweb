@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Quán Cafe </title>
+    <style>
+        body {
+            font-family:'Times New Roman', serif;
+            margin: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+        .back-to-top {
+            text-align: left;
+        }
+        .footer{
+            text-align: left;
+            font-size:small;
+        }
+    </style>
+</head>
+<body>
+    <h1>Example Cafe Menu</h1>
+
+    <nav>
+        <a href="#starters">Starters</a> |
+        <a href="#main-courses">Main-Courses</a> |
+        <a href="#desserts">Desserts</a>
+    </nav>
+
+
+    <h2 id="starters">Starters</h2>
+
+        <li>Chestnut and Mushroom Goujons <ins>(v)</ins></li>
+        <li>Goat Cheese Salad <ins>(v)</ins></li>
+        <li>Honey Soy Chicken Kebabs</li>
+        <li>Seafood Salad</li>
+    
+
+    <p class="back-to-top"><a href="#top">Back to top</a></p>
+
+    <h2 id="main-courses">Main courses</h2>
+   
+        <li>Spinach and Ricotta Roulade <ins>(v)</ins></li>
+        <li>Beef Tournados with Mustard and Dill Sauce</li>
+        <li>Roast Chicken Salad</li>
+        <li>Icelandic Cod with Parsley Sauce</li>
+        <li>Mushroom Wellington <ins>(v)</ins></li>
+    
+
+    <p class="back-to-top"><a href="#top">Back to top</a></p>
+
+    <h2 id="desserts">Desserts</h2>
+   
+        <li>Lemon Sorbet <ins>(v)</ins></li>
+        <li>Chocolate Mud Pie <ins>(v)</ins></li>
+        <li>Pecan Pie <ins>(v)</ins></li>
+        <li> Selection of Fine Chesses from Around the World </li>
+    
+    <p class="back-to-top"><a href="#top">Back to top</a></p>
+    <footer>Items markeed with a (v) are suitable for vegetarians.</footer>
+</body>
+</html>
