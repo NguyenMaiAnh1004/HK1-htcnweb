@@ -1,0 +1,21 @@
+.mauDo 
+{
+    font-size: 100%;
+    color: red;
+}
+        
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+        
+img {
+    width: 100%;
+}
+        
+li {
+     width: 150px;
+}
+.col-4{
+    width: 25.333333%;
+}
